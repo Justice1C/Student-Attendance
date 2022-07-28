@@ -4,7 +4,7 @@ import "./card.css";
 
 const Card = ({ fullName, email, photoUrl}) => {
 
-  const [click, setClick] = useState("ABSCENT");
+  const [click, setClick] = useState("Sign In / Sign Out");
   const handleClick = () => setClick("PRESENT");
 
   return (
